@@ -1,7 +1,7 @@
 import { useState, useContext } from "react";
 
 import { Context } from "../Context.tsx";
-import { assets, product } from "../assets/frontend_assets/assets.ts";
+import { assets } from "../assets/frontend_assets/assets.ts";
 
 const Collection = (): JSX.Element => {
   const context = useContext(Context);
@@ -12,6 +12,9 @@ const Collection = (): JSX.Element => {
   }
 
   const { products } = context;
+
+  console.log(products);
+  console.log(setShowFilter);
 
   return (
     <div className="flex flex-col sm:flex-row gap-1 sm:gap-10 pt-10 border-t">
