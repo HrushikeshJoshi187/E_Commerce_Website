@@ -10,6 +10,7 @@ import Login from "./pages/Login.tsx";
 import PlaceOrder from "./pages/PlaceOrder.tsx";
 import Orders from "./pages/Orders.tsx";
 import Navigation from "./components/Navigation.tsx";
+import Footer from "./components/Footer.tsx";
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
         <Route path="/orders" element={<Orders />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
+      <Footer />
     </div>
   );
 };

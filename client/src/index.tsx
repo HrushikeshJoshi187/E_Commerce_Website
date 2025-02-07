@@ -1,7 +1,9 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
 
-import Router from "./Router.tsx";
+import App from "./App.tsx";
+import { ContextProvider } from "./Context.tsx";
 
 import "./index.css";
 
@@ -14,7 +16,11 @@ if (!rootElement) {
 }
 
 createRoot(rootElement).render(
-  <StrictMode>
-    <Router />
-  </StrictMode>
+  <BrowserRouter>
+    <ContextProvider>
+      <StrictMode>
+        <App />
+      </StrictMode>
+    </ContextProvider>
+  </BrowserRouter>
 );
