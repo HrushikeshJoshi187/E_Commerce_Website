@@ -3,6 +3,16 @@
 
 @import "tailwindcss";
 
+@theme {
+  --tw-border-color: rgba(209, 213, 219, 1);
+}
+
+@layer base {
+  * {
+    border-color: var(--tw-border-color);
+  }
+}
+
 .prata_regular {
   font-family: "Prata", serif;
   font-weight: 400;
@@ -22,4 +32,8 @@ a.active hr {
     background-color: black;
     color: white;
   }
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
