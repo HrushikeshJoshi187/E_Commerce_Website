@@ -2,8 +2,8 @@ import { useState, useEffect, useContext } from "react";
 import { useParams } from "react-router-dom";
 
 import { Context } from "../Context.tsx";
-import { product } from "../assets/frontend_assets/assets.ts";
-import { assets } from "../assets/frontend_assets/assets.ts";
+import { product } from "../assets/assets.ts";
+import { assets } from "../assets/assets.ts";
 import RelatedProducts from "../components/RelatedProducts.tsx";
 
 const Product = (): JSX.Element => {

@@ -1,0 +1,59 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint .",
+    "dev": "nodemon --exec ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HrushikeshJoshi187/E_Commerce_Website.git"
+  },
+  "keywords": [
+    "E-commerce",
+    "Website"
+  ],
+  "author": "Hrushikesh Joshi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HrushikeshJoshi187/E_Commerce_Website/issues"
+  },
+  "homepage": "https://github.com/HrushikeshJoshi187/E_Commerce_Website#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "@types/bcrypt": "^5.0.2",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.8",
+    "@types/mongoose": "^5.11.96",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.13.4",
+    "@types/validator": "^13.12.2",
+    "@typescript-eslint/eslint-plugin": "^8.24.0",
+    "@typescript-eslint/parser": "^8.24.0",
+    "eslint": "^9.20.1",
+    "globals": "^15.15.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.24.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.1",
+    "multer": "^1.4.5-lts.1",
+    "razorpay": "^2.9.5",
+    "stripe": "^17.6.0",
+    "validator": "^13.12.0"
+  }
+}

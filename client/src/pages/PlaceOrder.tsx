@@ -2,7 +2,7 @@ import { useState, useContext } from "react";
 
 import Title from "../components/Title.tsx";
 import CartTotal from "../components/CartTotal.tsx";
-import { assets } from "../assets/frontend_assets/assets.ts";
+import { assets } from "../assets/assets.ts";
 import { Context } from "../Context.tsx";
 
 const PlaceOrder = (): JSX.Element => {

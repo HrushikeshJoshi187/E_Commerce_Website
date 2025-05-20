@@ -3,7 +3,7 @@ import { useState, useEffect, useContext } from "react";
 import { Context } from "../Context.tsx";
 import Title from "./Title.tsx";
 import ProductItem from "./ProductItem.tsx";
-import { product } from "../assets/frontend_assets/assets.ts";
+import { product } from "../assets/assets.ts";
 
 const LatestCollection = (): JSX.Element => {
   const context = useContext(Context);

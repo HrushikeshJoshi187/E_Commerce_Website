@@ -1,4 +1,4 @@
-import { assets } from "../assets/frontend_assets/assets.ts";
+import { assets } from "../assets/assets.ts";
 
 const Footer = (): JSX.Element => {
   return (
@@ -28,7 +28,7 @@ const Footer = (): JSX.Element => {
           <p className="text-xl font-medium mb-5">GET IN TOUCH</p>
           <ul className="flex flex-col gap-1 text-gray-600">
             <li>+1-123-345-6789</li>
-            <li>e.commerce@gmail.com</li>
+            <li>forever@gmail.com</li>
           </ul>
         </div>
       </div>
@@ -36,7 +36,7 @@ const Footer = (): JSX.Element => {
       <div>
         <hr />
         <p className="py-5 text-sm text-center">
-          Copyright 2024@ e_commerce.com - All Rights Reserved.
+          Copyright 2024@ Forever.com - All Rights Reserved.
         </p>
       </div>
     </div>

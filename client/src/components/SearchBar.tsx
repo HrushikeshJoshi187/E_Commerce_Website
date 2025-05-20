@@ -2,7 +2,7 @@ import { useState, useEffect, useContext } from "react";
 import { useLocation } from "react-router-dom";
 
 import { Context } from "../Context.tsx";
-import { assets } from "../assets/frontend_assets/assets.ts";
+import { assets } from "../assets/assets.ts";
 
 const Searchbar = () => {
   const context = useContext(Context);

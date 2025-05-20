@@ -1,5 +1,5 @@
 import Title from "../components/Title.tsx";
-import { assets } from "../assets/frontend_assets/assets.ts";
+import { assets } from "../assets/assets.ts";
 import NewsLetterBox from "../components/NewsLetterBox.tsx";
 
 const Contact = (): JSX.Element => {

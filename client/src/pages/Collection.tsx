@@ -1,7 +1,7 @@
 import { useState, useEffect, useContext } from "react";
 
 import { Context } from "../Context.tsx";
-import { assets, product } from "../assets/frontend_assets/assets.ts";
+import { assets, product } from "../assets/assets.ts";
 import Title from "../components/Title.tsx";
 import ProductItem from "../components/ProductItem.tsx";
 

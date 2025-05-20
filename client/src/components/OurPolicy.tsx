@@ -1,4 +1,4 @@
-import { assets } from "../assets/frontend_assets/assets.ts";
+import { assets } from "../assets/assets.ts";
 
 const OurPolicy = (): JSX.Element => {
   return (

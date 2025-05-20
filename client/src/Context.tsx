@@ -2,7 +2,7 @@ import { useState, createContext, ReactNode } from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 
-import { products } from "./assets/frontend_assets/assets.ts";
+import { products } from "./assets/assets.ts";
 
 interface CartItemsType {
   [itemID: string]: {

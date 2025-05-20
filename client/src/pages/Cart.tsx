@@ -2,7 +2,7 @@ import { useState, useEffect, useContext } from "react";
 
 import { Context } from "../Context.tsx";
 import Title from "../components/Title.tsx";
-import { assets } from "../assets/frontend_assets/assets.ts";
+import { assets } from "../assets/assets.ts";
 import CartTotal from "../components/CartTotal.tsx";
 
 interface CartDataType {

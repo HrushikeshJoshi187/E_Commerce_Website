@@ -14,7 +14,7 @@ import Navigation from "./components/Navigation.tsx";
 import Footer from "./components/Footer.tsx";
 import Searchbar from "./components/SearchBar.tsx";
 
-const App = () => {
+const App = (): JSX.Element => {
   return (
     <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px[9vw]">
       <ToastContainer />
